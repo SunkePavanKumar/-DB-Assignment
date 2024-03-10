@@ -7,7 +7,7 @@ The relationship between "Product" and "Product_Category" entities in the provid
 
 This structure is reflected in the way our database tables are linked. The `Product` table likely has a field called `categoryId` that stores the ID of the corresponding `Product_Category`. This foreign key reference ensures that products are linked to valid categories.
 
-==========================================
+**============================================================**
 **2.Enforcing Valid Category for Products**
 
 There are two main ways to make sure each product has a valid category assigned:
